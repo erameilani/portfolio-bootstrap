@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav a {
+    color: white;
+    margin: 0px 8px;
+}
+
+nav a:hover {
+    color: #f53b57;
+    font-weight: bold;
+}
+
+.carousel {
+    height: calc(100vh - 56px);
+}
+
+.carousel-inner,.carousel-item {
+    height: 100%;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+section {
+    text-align: center;
+    padding: 6% 8%;
+}
+
+section h2 {
+    font-size: 36px;
+}
+
+section h3, section p, section ul li {
+    font-size: 16px;
+}
+
+hr {
+    display: block;
+    height: 4px;
+    border-width: 0;
+    max-width: 120px;
+    color: #353b48;
+    background-color: #353b48;
+    margin: 32px auto;
+}
+
+#about #skill #portfolio #contact {
+    background-color: white;
+}
+
+.skill-set ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.skill-set ul li {
+    color: #f53b57;
+}
+
+img {
+    width: 80px;
+    height: auto;
+}
+
+.social ul {
+    list-style-type: none;
+    padding: 0px;
+    position: static;
+}
+
+.social ul li {
+    display: inline;
+    margin: 0px 16px;
+}
+
+.social ul li a {
+    text-decoration: none;
+    color: #f53b57;
+}
+
+.social ul li a:hover {
+    font-weight: bold;
+}
+
+.foot {
+    background-color: #353b48;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
